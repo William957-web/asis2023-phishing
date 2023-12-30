@@ -1,3 +1,4 @@
+<?php echo $_COOKIE["gift"] ?>
 <img src='x' onerror="print(<?php echo $_COOKIE["gift"] ?>)">
 <script>
         function print(num){
